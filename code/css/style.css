@@ -5,12 +5,41 @@ body {
     color: #455765;
   }
 
-  h3 {
+.box1{
+    margin:2em 0;
+    position: relative;
+    padding: 0.25em 1em;
+    border: solid 2px #ffcb8a;
+    border-radius: 3px 0 3px 0;
+}
+.box1:before,.box1:after
+{
+    content: '';
+    position: absolute;
+    width:10px;
+    height: 10px;
+    border: solid 2px #ffcb8a;
+    border-radius: 50%;
+}
+.box1:after {
+    top:-12px;
+    left:-12px;
+}
+.box1:before {
+    bottom:-12px;
+    right:-12px;
+}
+.box1 p {
+    margin: 0; 
+    padding: 0;
+}
+
+h3 {
     position: relative;
     padding: 1rem .5rem;
   }
   
-  h3:after {
+h3:after {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -21,3 +50,4 @@ body {
     background-image: -webkit-linear-gradient(left, #fa709a 0%, #fee140 100%);
     background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
   }
+
