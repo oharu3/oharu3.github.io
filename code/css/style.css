@@ -1,8 +1,9 @@
 @charset "utf-8";
 
 body {
-    margin: 5%;
     color: #455765;
+    line-height: 20px;
+    margin: 5%
   }
 
 .box1{
