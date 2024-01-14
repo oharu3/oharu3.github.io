@@ -1,11 +1,21 @@
 @charset "utf-8";
 
+/*
+GENERAL STYLING
+================================================ */
+html {
+    font-size: 100%;
+}
 body {
     color: #455765;
     line-height: 20px;
     margin: 5%
   }
 
+
+/*
+LAYOUT
+================================================ */
 /* Layout */
 .container {
     display: flex; 
@@ -16,21 +26,29 @@ body {
 
 /* Aside */
 aside {
-    width: 26%;
+    width: 13%;
 }
 
 /* Main */
 main {
-    width: 68%;
+    width: 80%;
     margin-bottom: 0;
 }
 
+
+/*
+ASIDE
+================================================ */
 /* Side menu */
 .side-menu {
     position: sticky;
     top: 1rem;
 }
 
+
+/*
+BOX
+================================================ */
 .box1{
     margin:2em 0;
     position: relative;
@@ -59,21 +77,4 @@ main {
     margin: 0; 
     padding: 0;
 }
-
-h3 {
-    position: relative;
-    padding: 1rem .5rem;
-  }
-  
-h3:after {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 5px;
-    content: '';
-    background-image: -webkit-gradient(linear, left top, right top, from(#fa709a), to(#fee140));
-    background-image: -webkit-linear-gradient(left, #fa709a 0%, #fee140 100%);
-    background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
-  }
 
