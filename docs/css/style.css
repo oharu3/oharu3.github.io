@@ -45,6 +45,22 @@ ASIDE
     top: 1rem;
 }
 
+/*
+MAIN
+================================================ */
+/* Images */
+.main-img {
+    margin: 0 3rem 1rem 0;
+    shape-outside: circle();
+    float: none;
+}
+
+.round-img {
+    width: 20%;
+    object-fit: cover;
+    border-radius: 40% 70% 50% 30% / 50%;
+}
+
 
 /*
 BOX
