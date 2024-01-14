@@ -6,6 +6,20 @@ body {
     margin: 5%
   }
 
+/* Layout */
+.container {
+    display: flex; 
+    justify-content: space-between;　　　　　
+    margin-bottom: 4rem;
+    padding: 1rem 2.5rem 2.5rem;
+}
+
+/* Side menu */
+.side-menu {
+    position: sticky;
+    top: 1rem;
+}
+
 .box1{
     margin:2em 0;
     position: relative;
