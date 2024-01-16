@@ -45,23 +45,31 @@ aside a {
 /*
 LAYOUT
 ================================================ */
-/* Layout */
-.container {
+/* Desktop */
+@media (min-width: 600px) {
+
+    .container {
     display: flex; 
     justify-content: space-between;
     margin-bottom: 4rem;
     padding: 1rem 2.5rem 2.5rem;
-}
+    }   
 
-/* Aside */
-aside {
+    /* Aside */
+    aside {
     width: 13%;
-}
+    }
 
-/* Main */
-main {
+    /* Main */
+    main {
     width: 80%;
     margin-bottom: 0;
+    }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+
 }
 
 
@@ -95,7 +103,6 @@ HEADLINE
 ================================================ */
 h1 {
     font-size: 22px;
-    font-weight: bold;
 }
 
 h2 {
@@ -205,7 +212,6 @@ main ul li::before {
     content: '\f1b0';
     color: #455765;
 }
-
 
 
 /*
