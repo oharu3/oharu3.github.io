@@ -70,6 +70,10 @@ LAYOUT
     width: 80%;
     margin-bottom: 0;
     }
+
+    .top-button {
+        display: none;
+    }
 }
 
 /* Mobile */
