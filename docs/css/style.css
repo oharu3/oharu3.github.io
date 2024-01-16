@@ -46,7 +46,7 @@ aside a {
 LAYOUT
 ================================================ */
 /* Desktop */
-@media (min-width: 600px) {
+@media (min-width: 768px) {
 
     .container {
     display: flex; 
