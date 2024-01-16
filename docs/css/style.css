@@ -39,6 +39,11 @@ aside a {
     }
 
 
+.top-button a {
+    color: #455765;
+    text-decoration: none;
+}
+
 
 
 
@@ -213,6 +218,12 @@ main ul li::before {
     color: #455765;
 }
 
+/*
+TOP BUTTON
+================================================ */
+.top-button {
+    text-align: center;
+}
 
 /*
 BOX
