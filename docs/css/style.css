@@ -222,6 +222,95 @@ main ul li::before {
     color: #455765;
 }
 
+
+/*---------------------------------------
+   Portfolio section              
+-----------------------------------------*/
+
+#portfolio small {
+    color: #f0f0f0;
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  
+  #portfolio .portfolio-thumb {
+    position: relative;
+    padding: 0;
+    margin-top: 32px;
+    object-fit: cover;
+    width: 300px;
+    height: 200px;
+  }
+  
+  #portfolio .portfolio-thumb .portfolio-overlay {
+    position: absolute;
+    background: #222;
+    color: #ffffff;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    vertical-align: top;
+    opacity: 0;
+    transition: all 0.4s ease-in-out;
+  }
+  
+  #portfolio .portfolio-item {
+      position: absolute;
+      top:50%;
+      left: 50%;
+      -webkit-transform:translate(-50%,-50%);
+        -ms-transform:translate(-50%,-50%);
+            transform:translate(-50%,-50%);
+  }
+  
+  #portfolio .portfolio-thumb:hover .portfolio-overlay {
+    opacity: 0.9;
+  }
+  
+  #portfolio .text-center {
+    padding-top: 62px;
+  }
+  
+
+
+  /*---------------------------------------
+   Single Project section              
+-----------------------------------------*/
+
+#single-project {
+    text-align: center;
+  }
+  
+  #single-project .col-md-12,
+  #single-project .col-md-6,
+  #single-project .col-md-4 {
+    padding-left: 0px;
+    padding-bottom: 22px;
+  }
+  
+  #single-project .col-md-12 {
+    padding-top: 42px;
+  }
+  
+  #single-project .text-center strong {
+    display: block;
+    padding-top: 12px;
+  }
+  
+  #single-project a {
+    color: #555;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding-left: 14px;
+  }
+
+
+
 /*
 TOP BUTTON
 ================================================ */
